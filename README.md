@@ -6,7 +6,8 @@ BookMySpot is a popular mobile app in India that allows users to book movie tick
 This helps users discover new movies, events, and shows that align with their interests and preferences.In addition to ticket booking, the app also provides information about upcoming movies, events, and shows, along with trailers, reviews, and ratings. Users can also rate and review movies and events, contributing to the app's community-driven content.BookMySpot also offers a range of convenient features such as easy ticket cancellation, rescheduling, and refunds, as well as customer support through chat, email, and phone.
 Overall, BookMySpot is a comprehensive entertainment booking app that caters to the diverse needs of users, providing a seamless and convenient platform for booking movie tickets, event tickets, and more, and enhancing the overall entertainment experience.
 
-
+# Demo Video
+https://drive.google.com/drive/folders/1B9_3-njbLr1I8pAdkgPSihNqvwdVYWOR
 
 # Backend and Security
 
