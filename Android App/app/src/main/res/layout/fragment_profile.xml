@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".ProfileFragment">
+
+
+    <LinearLayout
+        android:paddingStart="20dp"
+        android:paddingEnd="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Profile"
+            android:textColor="#1877F2"
+            android:fontFamily="@font/black"
+            android:textSize="40sp"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="Change Name"
+            android:textColor="#313131"
+            android:fontFamily="@font/bold"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="First Name"
+                android:theme="@style/TextInputLayoutStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/fName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPersonName"
+                    android:fontFamily="@font/bold"
+                    android:enabled="false"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content"
+                android:hint="Last Name"
+                android:theme="@style/TextInputLayoutStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/lName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/bold"
+                    android:inputType="textPersonName"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveName"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:backgroundTint="#1877F2"
+            android:layout_marginTop="10dp"
+            android:enabled="false"
+            android:textColor="#fff"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false"
+            android:text="Save Name" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#313131"
+            android:fontFamily="@font/bold"
+            android:text="Change Contacts"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Email"
+                android:theme="@style/TextInputLayoutStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/email"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/bold"
+                    android:enabled="false"
+                    android:inputType="textEmailAddress"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:hint="Phone Number"
+                android:theme="@style/TextInputLayoutStyle">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/phoneNumber"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:enabled="false"
+                    android:fontFamily="@font/bold"
+                    android:inputType="text|phone" />
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/saveContact"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:backgroundTint="#1877F2"
+            android:layout_marginTop="12dp"
+            android:enabled="false"
+            android:textColor="#fff"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false"
+            android:text="Save Contact" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:textColor="#313131"
+            android:fontFamily="@font/bold"
+            android:text="Change Password"
+            android:textSize="20sp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="12dp">
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Old Password"
+                app:endIconMode="password_toggle"
+                android:theme="@style/TextInputLayoutStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/oldPassword"
+                    android:layout_width="match_parent"
+                    android:fontFamily="@font/bold"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="12dp"
+                android:hint="New Password"
+                app:endIconMode="password_toggle"
+                android:theme="@style/TextInputLayoutStyle">
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/newPassword"
+                    android:fontFamily="@font/bold"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:inputType="textPassword"/>
+            </com.google.android.material.textfield.TextInputLayout>
+        </LinearLayout>
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/savePassword"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            app:backgroundTint="#1877F2"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false"
+            android:textColor="#fff"
+            android:layout_marginTop="12dp"
+            android:text="Change Password" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/logout"
+            style="@style/Widget.MaterialComponents.Button.Icon"
+            android:layout_width="match_parent"
+            android:layout_marginBottom="50dp"
+            android:textColor="#fff"
+            android:fontFamily="@font/bold"
+            android:textAllCaps="false"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="Log out"
+            app:backgroundTint="@color/colorAccent" />
+
+    </LinearLayout>
+
+
+</ScrollView>

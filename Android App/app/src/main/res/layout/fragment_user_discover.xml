@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F0F2F6"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".UserDiscoverFragment">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:textColor="#1877F2"
+        android:fontFamily="@font/black"
+        android:text="Discover"
+        android:textSize="40sp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/eventsList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="70dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/pastEventsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_marginTop="405dp"
+        android:layout_marginLeft="20dp" />
+</FrameLayout>

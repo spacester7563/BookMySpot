@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg {
+  background-image: url('image.png');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
+<body>
+
+<div class="bgimg">
+  <div class="topleft">
+    <button class="btn btn-danger" onclick="logout()">Logout</button>
+  </div>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
+  </div>
+  <div class="bottomleft">
+    <p>Some text</p>
+  </div>
+</div>
+<script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-firestore-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-auth-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/9.19.1/firebase-database-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAhSjpjZfAoYIPz6NXgyu-R0TayNglvyeE",
+      authDomain: "bookmyevent-1d870.firebaseapp.com",
+      databaseURL: "https://bookmyevent-1d870-default-rtdb.firebaseio.com",
+      projectId: "bookmyevent-1d870",
+      storageBucket: "bookmyevent-1d870.appspot.com",
+      messagingSenderId: "89914221999",
+      appId: "1:89914221999:web:1327c59c882bbf305a7b5a",
+      measurementId: "G-3YZM2WV4LL"
+    };
+    const firebaseApp = firebase.initializeApp(firebaseConfig);
+    const db = firebaseApp.firestore();
+    const auth = firebaseApp.auth();
+    const database = firebaseApp.database();
+  </script>
+<script src="firebase.js"></script>
+<script src="index.js"></script>
+</body>
+</html>
