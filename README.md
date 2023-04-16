@@ -86,5 +86,5 @@ Team Members:
 20CE1194 Ganesh Singh\
 20CE1021 Kaif Bijali\
 20CE1152 Vaibhav Dixit\
-20CE1108 Gaurav Singh\
+20CE1108 Gaurav Singh
 
