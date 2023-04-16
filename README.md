@@ -78,7 +78,7 @@ Book My Spot is divided into 2 main modules; one for the users, through which th
 4. Improve Communication and Collaboration: Event booking apps often include features for effective communication and collaboration among event organizers, attendees, vendors, and other stakeholders. This can include features such as in-app messaging, event updates, and notifications to keep everyone informed and engaged.    
 
 # Team:The syntax error
-# Team Members:
+Team Members:
 20CE1290 Sahil Nalavade
 20CE1258 Fathima Naduthody
 20CE1233 Shivanshu Meena
