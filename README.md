@@ -80,11 +80,11 @@ Book My Spot is divided into 2 main modules; one for the users, through which th
 
 # Team:The syntax error
 Team Members:
-20CE1290 Sahil Nalavade
-20CE1258 Fathima Naduthody
-20CE1233 Shivanshu Meena
-20CE1194 Ganesh Singh
-20CE1021 Kaif Bijali
-20CE1152 Vaibhav Dixit 
-20CE1108 Gaurav Singh
+20CE1290 Sahil Nalavade\
+20CE1258 Fathima Naduthody\
+20CE1233 Shivanshu Meena\
+20CE1194 Ganesh Singh\
+20CE1021 Kaif Bijali\
+20CE1152 Vaibhav Dixit\
+20CE1108 Gaurav Singh\
 
