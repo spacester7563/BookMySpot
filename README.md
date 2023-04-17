@@ -15,9 +15,8 @@ Demo Video :- https://drive.google.com/drive/folders/1B9_3-njbLr1I8pAdkgPSihNqvw
 
 <img src="https://firebasestorage.googleapis.com/v0/b/bookmyevent-1d870.appspot.com/o/Screenshot%202023-04-17%20at%206.48.33%20PM.png?alt=media&token=cb085e7e-564a-4b8c-90a4-4242f79c626d" width=25% height=25%>
 
-<img src="https://firebasestorage.googleapis.com/v0/b/bookmyevent-1d870.appspot.com/o/Screenshot%202023-04-17%20at%206.49.04%20PM.png?alt=media&token=3ba4d508-6d24-4a6f-b234-561cca60d55e" width=25% height=25%>
+<img src="https://firebasestorage.googleapis.com/v0/b/bookmyevent-1d870.appspot.com/o/Screenshot%202023-04-17%20at%207.28.29%20PM.png?alt=media&token=a8bae3ff-029d-4815-bfe5-839138551ef5" width=25% height=25%>
 
-<img src="https://firebasestorage.googleapis.com/v0/b/bookmyevent-1d870.appspot.com/o/Screenshot%202023-04-17%20at%206.49.04%20PM.png?alt=media&token=3ba4d508-6d24-4a6f-b234-561cca60d55e" width=25% height=25%>
 
 </p>
 
